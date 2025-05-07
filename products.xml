@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slider>
+  <title>Хит продаж</title>
+  <products>
+    <product>
+      <img>./img/item.png</img>
+      <text>Умный браслет HUAWEI Band 10 (NOR-B29) сиреневый</text>
+      <price>139 р.</price>
+    </product>
+    <product>
+      <img>./img/item1.png</img>
+      <text>Игровой ноутбук MSI Raider 18 HX AI A2XWIG-294BY</text>
+      <price>17 999 р.</price>
+    </product>
+    <product>
+      <img>./img/item2.png</img>
+      <text>Cмартфон Apple iPhone 15 128GB Black</text>
+      <price>2 799 р.</price>
+    </product>
+    <product>
+      <img>./img/item3.png</img>
+      <text>Телевизор LG 55NANO80T6A</text>
+      <price>2 399 р.</price>
+    </product>
+    <product>
+      <img>./img/item4.png</img>
+      <text>Беспроводные наушники Honor Choice Earbuds S7</text>
+      <price>229 р.</price>
+    </product>
+  </products>
+</slider>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ElectroTech интернет-магазин электроники</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon"  href="./img/molnia.png" />
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/catalog.css'>
+</head>
+<body>
+    <header class="header">
+        <a href="home.html" class="header-logo">
+            <img src="./img/logo_dark.svg">             
+        </a>
+            <button class="burger" type="button" title="Открыть меню"> 
+                <img src="./img/burger_black.svg" class="burger-menu">
+            </button>
+        <nav class="menu">
+            <ul class="menu-list">
+              <li><a href="home.html">Главная</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="AboutUs.html">О нас</a></li>
+            </ul>
+          </nav>
+        <nav class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+                <button>
+                    <a href="home.html" class="header-menu-link">
+                        Главная
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="catalog.html" class="header-menu-link is-current">
+                        Каталог
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="delivery.html" class="header-menu-link">
+                        Доставка
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="AboutUs.html" class="header-menu-link ">
+                        О нас
+                    </a>
+            </button>
+            </li>
+          </ul> 
+        </nav>
+        <div class="header-actions">
+            <div class="cart-panel">
+                <button class="close-cart">
+                    <img src="./img/cross_black.svg" alt="Закрыть">
+                  </button>                  
+                <h2>Корзина</h2>
+                <ul class="cart-items"></ul>    
+            </div>
+            <button class="cart-icon" type="button" title="Открыть корзину">
+                <img src="./img/Cart_white.svg" alt="">
+                </button> 
+          </div>
+
+    </header>
+
+    <main class="content-catalog-main">
+        <section class="block-slider">
+            <h2 class="slider-title">Рекомендуем</h2>
+            <div class="slider"> 
+                <button class="prev">
+                    <img src="./img/strelka left.svg" alt="">
+                </button>
+                <div class="slides"> 
+                    <div class="item"> 
+                        <img src="./img/washh.png"> 
+                        <div class="item-text">Стиральная машина Haier HW80-BP14979</div> 
+                        <div class="item-price">1 649 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> <div class="item"> 
+                        <img src="./img/item1.png"> 
+                        <div class="item-text">Игровой ноутбук MSI Raider 18 HX AI A2XWIG-294BY</div> 
+                        <div class="item-price">17 999 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/item2.png"> 
+                        <div class="item-text">Cмартфон Apple iPhone 15 128GB Black</div> 
+                        <div class="item-price">2 799 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/item3.png"> 
+                        <div class="item-text">Телевизор LG 55NANO80T6A</div> 
+                        <div class="item-price">2 399 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item">
+                        <img src="./img/item4.png"> 
+                        <div class="item-text">Беспроводные наушники Honor Choice Earbuds S7</div> 
+                        <div class="item-price">229 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                </div> 
+                <button class="next">
+                    <img src="./img/strelka right.svg" alt="">
+                </button> 
+            </div> 
+        </section>
+
+        <section class="block-slider block-slider-new">
+            <h2 class="slider-title">Новинки</h2>
+            <div class="slider"> 
+                <button class="prev">
+                    <svg width="26" height="44" viewBox="0 0 26 44" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                        <path d="M21.8604 2L3.00001 22.2253L23.2253 41.0857" stroke="#3B3A3E" stroke-width="4" stroke-linecap="round"/> 
+                    </svg>
+                </button>
+                <div class="slides"> 
+                    <div class="item"> 
+                        <img src="./img/lol.png"> 
+                        <div class="item-text">Смартфон Samsung Galaxy (розовый)</div> 
+                        <div class="item-price">1 649 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/item.png"> 
+                        <div class="item-text">Умный браслет HUAWEI сиреневый</div> 
+                        <div class="item-price">139 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div>
+                    <div class="item"> 
+                        <img src="./img/item6.png"> 
+                        <div class="item-text">Планшет Apple iPad Air  11 Wi-Fi A2902 </div> 
+                        <div class="item-price">2 599 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/kekop.png"> 
+                        <div class="item-text">Ноутбук Lenovo IdeaPad Flex 5</div> 
+                        <div class="item-price">2 899 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/lamp.png"> 
+                        <div class="item-text">Умная настольная лампа-ночник XIAOMI Mi Bedside</div> 
+                        <div class="item-price">179 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                </div> 
+                <button class="next">
+                    <svg width="25" height="44" viewBox="0 0 25 44" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                        <path d="M2.55469 41.1094L22.1094 21.5546L2.55469 1.9999" stroke="#3B3A3E" stroke-width="4" stroke-linecap="round"/> 
+                    </svg> 
+                </button> 
+            </div> 
+        </section>
+
+        <section class="block-slider block-slider-new">
+            <h2 class="slider-title">Каталог Apple</h2>
+            <div class="slider"> 
+                <button class="prev">
+                    <svg width="26" height="44" viewBox="0 0 26 44" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                        <path d="M21.8604 2L3.00001 22.2253L23.2253 41.0857" stroke="#3B3A3E" stroke-width="4" stroke-linecap="round"/> 
+                    </svg>
+                </button>
+                <div class="slides"> 
+                    <div class="item"> 
+                        <img src="./img/iph.png"> 
+                        <div class="item-text">Смартфон Apple iPhone 15 Pro Max 256GB Natural</div> 
+                        <div class="item-price">4 599 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/book.png"> 
+                        <div class="item-text">Ноутбук Apple MacBook Pro 16.2" M3 Pro</div> 
+                        <div class="item-price">10 207 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div>
+                    <div class="item"> 
+                        <img src="./img/item6.png"> 
+                        <div class="item-text">Планшет Apple iPad Air  11 Wi-Fi A2902 </div> 
+                        <div class="item-price">2 599 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/head.png"> 
+                        <div class="item-text">Наушники Apple Airpods Max (MGYN3AM/A)</div> 
+                        <div class="item-price">2 899 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                    <div class="item"> 
+                        <img src="./img/item2.png"> 
+                        <div class="item-text">Cмартфон Apple iPhone 15 128GB Black</div> 
+                        <div class="item-price">2 799 р.</div> 
+                        <button class="item-button">В корзину</button> 
+                    </div> 
+                </div> 
+                <button class="next">
+                    <svg width="25" height="44" viewBox="0 0 25 44" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                        <path d="M2.55469 41.1094L22.1094 21.5546L2.55469 1.9999" stroke="#3B3A3E" stroke-width="4" stroke-linecap="round"/> 
+                    </svg> 
+                </button> 
+            </div> 
+        </section>
+        
+        
+        <section class="contact">
+            <div class="contact-block">
+                <h1 class="contact-title">Контактные данные</h1>
+                <div class="contact-number">+37529393963</div>
+                <div class="contact-mail">electrotech@mail.ru</div>
+                <div class="contact-icons">
+
+                    <a href="https://github.com/bubleM">
+                    <img src="./img/Telegram.svg" alt="">
+                    </a>
+
+                    <a href="https://github.com/bubleM">
+                  <img src="./img/GitHub.svg" alt="">
+                    </a>
+
+                    <a href="https://github.com/bubleM">
+                    <img src="./img/X.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-block">
+            <h2 class="footer-title">ElectroTech</h2>
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li><a href="home.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="AboutUs.html">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+    <script src='./js/main.js'></script>
+</body>
+</html>

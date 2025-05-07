@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ElectroTech интернет-магазин электроники</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon"  href="./img/molnia.png" />
+    <link rel='stylesheet' type='text/css' media='screen' href='css/delivery.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+</head>
+<body>
+    <header class="header">
+        <a href="home.html" class="header-logo">
+            <img src="./img/logo_dark.svg">             
+        </a>
+            <button class="burger" type="button" title="Открыть меню"> 
+                <img src="./img/burger_black.svg" class="burger-menu">
+            </button>
+        <nav class="menu">
+            <ul class="menu-list">
+              <li><a href="home.html">Главная</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="AboutUs.html">О нас</a></li>
+            </ul>
+          </nav>
+        <nav class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+                <button>
+                    <a href="home.html" class="header-menu-link">
+                        Главная
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="catalog.html" class="header-menu-link">
+                        Каталог
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="delivery.html" class="header-menu-link  is-current">
+                        Доставка
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="AboutUs.html" class="header-menu-link ">
+                        О нас
+                    </a>
+            </button>
+            </li>
+          </ul> 
+        </nav>
+        <div class="header-actions">
+            <div class="cart-panel">
+                <button class="close-cart">
+                    <img src="./img/cross_black.svg" alt="Закрыть">
+                  </button>                  
+                <h2>Корзина</h2>
+                <ul class="cart-items"></ul>    
+            </div>
+            <button class="cart-icon" type="button" title="Открыть корзину">
+                <img src="./img/Cart_white.svg" alt="">
+                </button> 
+          </div>
+
+    </header>
+
+    <main>
+        <section class="delivery-info">
+            <h2 class="delivery-title">Доставка</h2>
+            <div class="text">
+                <p>Мы доставим вашу покупку в любую точку Беларуси.</p>
+                <h3>Оплата заказов общей стоимостью до 20 рублей, оформленных на Самовывоз</h3>
+                <p>Для заказов общей стоимостью до 20 рублей, оформленных на Самовывоз необходима 100% предоплата.</p>
+                <h3>Стоимость доставки курьером в Минске:</h3>
+                <p>При общей стоимости заказа больше 100,00 р  — бесплатно при выборе временного интервала доставки без повышенной стоимости.
+                    Точную информацию о стоимости доставки заказа в целом можно увидеть при оформлении заказа.</p>
+                <h3>Доставка «В ваше время»</h3>
+                <p>Услуга предоставляет возможность получить ваш заказ (до 200 кг) в удобный для вас 30-минутный интервал времени в Минске и ближайшем пригороде.
+                    И 60-минутный интервал во всех областных городах РБ, 
+                    а также в Барановичах, Борисове, Солигорске, Молодечно, Полоцке, Мозыре, Бобруйске и в близлежащих районах.<br>
+                    слуга платная. Точную стоимость оказания услуги можно увидеть при оформлении заказа.<br>
+                    Промокоды на бесплатную доставку не работают с услугой «В ваше время».
+                </p>
+            </div>
+        </section>
+
+        <section class="delivery-map">
+            <h3 class="map-title">Доступные интервалы доставки курьером</h3>
+            <div class="text">Ознакомьтесь, пожалуйста, с доступным временем доставки в Вашем населённом пункте.
+                Доставка осуществляется ежедневно. Для получения информации выберите необходимую зону доставки на карте.</div>
+            <div class="map"><img src="./img/map.png" alt="map"></div>
+        </section>
+
+        <section class="conditions">
+            <h3>Условия доставки и получения заказов:</h3>
+            <ul class="conditions-list">
+                <li class="list-link">Доставка осуществляется только для товаров, входящих в состав заказа. Транспортировка нескольких 
+                товаров с целью выбора одного из них на месте доставки не производится.</li>
+                <li class="list-link">Доставка по указанному адресу обязывает покупателя находиться на месте в согласованное накануне время.</li>
+                <li class="list-link">Доставка производится собственной курьерской службой либо организацией-подрядчиком, определяемой продавцом.</li>
+                <li class="list-link">Доставка осуществляется до помещения и места, которые укажет покупатель, при условии, что отсутствуют предметы, загромождающие проходы, а расстояние между товаром в упаковке и проемом (дверь, коридор) не менее 5 см.</li>
+                <li class="list-link">В случае, если условия в указанном покупателем помещении мешают доставке товара или могут вызвать его повреждение, товар доставляется курьером до ближайшего места с подходящими (перечисленными выше) условиями. Курьеры не осуществляют уборку территории от препятствующих предметов и не передвигают объекты в квартире.</li>
+                <li class="list-link">В обязанности курьеров не входит консультация по эксплуатации и характеристикам товара, его установка и настройка. В случае необходимости, информацию о товаре можно получить на сайте или в колл-центре.</li>
+                <li class="list-link"> Заводская упаковка товара не вскрывается до доставки покупателю.</li>
+                <li class="list-link"> Для вашего удобства наш онлайн-гипермаркет предоставляет возможность проверить товар в течение 3 дней со дня покупки (первым днем считается день покупки). Обращаем ваше внимание, что проверка товара не подразумевает его использование.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <div class="contact-block">
+                <h1 class="contact-title">Контактные данные</h1>
+                <div class="contact-number">+37529393963</div>
+                <div class="contact-mail">electrotech@mail.ru</div>
+                <div class="contact-icons">
+
+                    <a href="https://github.com/bubleM">
+                    <img src="./img/Telegram.svg" alt="">
+                    </a>
+
+                    <a href="https://github.com/bubleM">
+                  <img src="./img/GitHub.svg" alt="">
+                    </a>
+
+                    <a href="https://github.com/bubleM">
+                    <img src="./img/X.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-block">
+            <h2 class="footer-title">ElectroTech</h2>
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li><a href="home.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="AboutUs.html">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+<script src='./js/main.js'></script>
+</body>
+</html>

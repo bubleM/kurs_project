@@ -1,0 +1,229 @@
+@use 'common';
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+
+.content-about-main{
+
+    .block-about{
+        display: flex;
+        max-width: 1000px;
+        min-height: 354px;
+        background-color:var(--color-block-gray) ;
+        padding-inline: 93px;
+        justify-content: center;
+        min-width: 460px;
+        margin: 0 auto;
+    }
+    .about-title{
+        font-weight: bold;
+        font-size: 48px;
+        white-space: nowrap;
+        margin-right: 138px;
+        padding-top: 106px;
+    }
+    .about-text{
+        font-family: var(--font-family-accent);
+        font-size: 15px;
+        font-weight: normal;
+        padding-top: 95px;
+        line-height: 192%;
+        padding-bottom: 20px;
+    }
+}
+
+.block-review{
+    display: block;
+    max-width: 877px;
+    min-height: 391px;
+    padding-top: 92px;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding-inline: 20px;
+}
+    .review-title{
+        font-size: 48px;
+        font-weight: bold;
+        padding-bottom: 90px;
+    }
+
+    .icons{
+        display: flex;
+        column-gap: 110px;
+    }
+
+    .icons .item{
+        display: block;
+        text-align: center;
+    }
+
+    .icons .item svg{
+        color: #304972;
+    }
+
+    .icons .item p{
+        margin-bottom: 0;
+        font-size: 15px;
+        font-family: var(--font-family-accent);
+        font-weight: 600;
+    }
+    .icons .item .digits{
+        font-weight: bold;
+        font-size: 30px;
+        color:#304972;
+    }
+    
+    .history{
+        margin-top:83px ;
+        margin-inline: 65px;
+    }
+
+    .history-block{
+        display: flex;
+        max-width: 1172px;
+        min-height: 627px;
+        background-color:var(--color-block-gray);
+        padding-inline: 93px;
+        justify-content: center;
+        min-width: 460px;
+        margin: 0 auto;
+    }
+   
+    .history-title{
+        font-weight: bold;
+        font-size: 48px;
+        white-space: nowrap;
+        margin-right: 138px;
+        padding-top: 106px;
+    }
+
+    .history-text{
+        font-family: var(--font-family-accent);
+        font-size: 15px;
+        font-weight: normal;
+        padding-top: 87px;
+        line-height: 192%;
+        padding-bottom: 20px;
+    }
+
+@media(max-width:1024px){
+    .content-about-main .block-about{
+        margin-top: 30px;
+        padding-inline: 60px;
+        margin-inline: 100px;
+
+        .about-title{
+            margin-right: 80px;
+            padding-top: 80px;
+            
+        }
+
+        .about-text{
+            padding-top: 69px;
+        }
+    }
+
+    .block-review{
+        padding-inline: 25px;
+    }
+    .block-review .review-title{
+        padding-left: 50px;
+        font-size:40px;
+    }
+    .icons{
+        column-gap: 100px;
+    }
+
+    .history-block{
+        display: block;
+    }
+    .history-title{
+        padding-top: 20px;
+    }
+    .history-text{
+        padding-top: 30px;
+    }
+}
+
+@media(max-width:767px){
+    .icons{
+        column-gap: 2vh;
+    }
+
+    .content-about-main .block-about{
+        margin-top: 32px;
+        padding-inline: 23px;
+        margin-inline: 26px;
+        
+
+        .about-title{
+            margin-right: 30px;
+            padding-top: 48px;
+            
+        }
+
+        .about-text{
+            padding-top: 32px;
+        }
+    }
+
+    .block-review{
+        padding-inline: 5px;
+    }
+    .block-review .review-title{
+        text-align: center;
+        padding-left: 40px;
+        font-size:25px;
+    }
+
+
+    .icons .item p{
+        font-size: 12px;
+    }
+    .icons .item .digits{
+        font-size: 20px;
+    }
+    .history{
+        margin-inline: 15px;
+    }
+    .history-block{
+        padding-inline: 30px;
+    }
+
+    .history-title{
+        font-size:28px ;
+    }
+    .history-text{
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:480px){
+    .content-about-main .block-about{
+        margin-top: 30px;
+        padding-inline: 15px;
+        margin-inline: 25px;
+
+        .about-title{
+            font-size: 30px;
+        }
+
+        .about-text{
+            font-size: 15px;
+        } 
+    }
+
+    .block-review{
+        padding-inline: 5px;
+        min-width: 493px;
+    }
+    .icons{
+        column-gap: 20px;
+    }
+    .icons .item p{
+        white-space: wrap;
+    }
+}

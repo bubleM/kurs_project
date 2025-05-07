@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ElectroTech интернет-магазин электроники</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon"  href="./img/molnia.png" />
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    
+</head>
+<body>
+    <header class="headerf">
+        <div class="header">
+        <a href="home.html" class="header-logo">
+            <img src="./img/logo_white.svg">
+        </a>
+        
+        <button class="burger" type="button" title="Открыть меню">
+           <img src="./img/burger.svg" class="burger-menu">
+        </button>
+        <nav class="menu">
+            <ul class="menu-list">
+              <li><a href="home.html">Главная</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="AboutUs.html">О нас</a></li>
+            </ul>
+          </nav>
+        <nav class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+                <button>
+                    <a href="home.html" class="header-menu-link is-current">
+                        Главная
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="catalog.html" class="header-menu-link">
+                        Каталог
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="delivery.html" class="header-menu-link">
+                        Доставка
+                    </a>
+            </button>
+            </li>
+            <li class="header-menu-item">
+                <button>
+                    <a href="AboutUs.html" class="header-menu-link">
+                        О нас
+                    </a>
+            </button>
+            </li>
+          </ul> 
+        </nav>
+        <div class="header-actions">
+            <div class="cart-panel">
+                <button class="close-cart">
+                    <img src="./img/cross_black.svg" alt="Закрыть">
+                  </button>                  
+                <h2>Корзина</h2>
+                <ul class="cart-items"></ul>    
+            </div>
+            <button class="cart-icon" type="button" title="Открыть корзину">
+                <img src="./img/Cart_white.svg" alt="">
+                </button> 
+          </div>
+          </div>
+          <div class="content">
+            <div class="banner-content">
+            <h1 class="banner-title">ElectroTech</h1>
+            <div class="banner-info">Ваш уникальный онлайн-магазин электроники, где каждая новинка приносит инновации и комфорт в вашу жизнь.</div>
+            </div>
+            <button class="banner-button" type="button"><a href="catalog.html">Каталог</a></button>
+        </div>
+
+    </header>
+
+    <main class="content_main">
+        <section class="block-info">
+            <img src="./img/img-info.png" alt="" class="img-info">
+            <h2 class="title-info">Краткая информация</h2>
+            
+                <div class="text1-info">Добро пожаловать в наш интернет-магазин электроники! Мы предлагаем широкий 
+                    ассортимент современных гаджетов и устройств, включая смартфоны, ноутбуки, планшеты, аксессуары
+                    и умную технику от ведущих мировых брендов. 
+                </div>
+                <div class="text2-info">
+                    <p> Почему выбирают нас?</p>
+                    <ul class="list-info">
+                        <li class="member-list-info">Качество: Мы сотрудничаем только с надежными производителями.</li>
+                        <li class="member-list-info">Доступные цены: Конкурентные цены и регулярные акции.</li>
+                        <li class="member-list-info">Удобство покупок: Легкий поиск товаров и быстрая оформление заказа.</li>
+                        <li class="member-list-info">Быстрая доставка: Доставляем заказы в кратчайшие сроки.</li>
+                        <li class="member-list-info">Поддержка клиентов: Наша команда всегда готова помочь вам с выбором и ответить на ваши вопросы.</li>
+                    </ul>
+                    <p>Откройте для себя мир технологий с нами!</p>
+                </div>
+                
+          
+        </section>
+
+        <div id="sliderContainer"></div>
+
+        <section class="contact">
+            <div class="contact-block">
+                <h1 class="contact-title">Контактные данные</h1>
+                <div class="contact-number">+37529393963</div>
+                <div class="contact-mail">electrotech@mail.ru</div>
+                <div class="contact-icons">
+
+                    <a href="https://github.com/bubleM">
+                    <img src="./img/Telegram.svg" alt="">
+                    </a>
+
+                    <a href="https://github.com/bubleM">
+                  <img src="./img/GitHub.svg" alt="">
+                    </a>
+
+                    <a href="https://github.com/bubleM">
+                    <img src="./img/X.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-block">
+            <h2 class="footer-title">ElectroTech</h2>
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li><a href="home.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="AboutUs.html">О нас</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+  
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+

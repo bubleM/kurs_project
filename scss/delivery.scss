@@ -1,0 +1,105 @@
+@use 'common';
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+.delivery-info{
+    display: block;
+    margin-top:20px;
+    margin-inline: 159px;
+    max-width: 1120px;
+    min-height: 492px;
+    margin-bottom: 38px;
+}
+.delivery-title{
+    font-size:48px;
+    font-weight: bold;
+}
+
+.text{
+    font-family:var(--font-family-accent) ;
+    font-size: 15px;
+    line-height: 192%;
+}
+
+h3{
+font-weight: bold;
+}
+
+
+.delivery-map{
+    display: block;
+    max-width:1120px ;
+    height:auto;
+    margin-inline: 159px;
+    margin-bottom: 15px;
+}
+
+.map{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.conditions {
+    max-width: 1120px; 
+    min-height: 606px; 
+    margin: 0 auto; // Центрирование блока
+    padding-inline: 100px;
+}
+
+.conditions-list {
+    list-style-type: none; // Убираем стандартные маркеры
+    padding: 0;
+    font-size: 15px;
+    font-family: var(--font-family-accent);
+    line-height: 192%;
+
+    li {
+        padding-top:10px ;
+        position: relative;
+        padding-left: 15px; // Отступ для маркера
+
+        &::before {
+            content: "-"; // Устанавливаем тире вместо маркера
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: var(--color-dark); // Можно сменить цвет
+        }
+    }
+}
+
+@media(max-width:1024px){
+    .delivery-info, .delivery-map{
+        margin-inline: 110px;
+    }
+}
+
+
+@media(max-width:767px){
+
+    .delivery-info, .delivery-map{
+        margin-inline: 40px;
+    }
+
+    .conditions{
+        padding-inline: 60px;
+    }
+}
+
+@media(max-width:480px){
+    .delivery-info{
+        margin-inline: 10px;}
+    .delivery-map{
+        margin-inline: 5px;
+    }
+    .map{
+        width: 95vh;
+        margin: 0 auto;
+    }
+    .conditions{
+        padding-inline: 10px;
+    }
+}
